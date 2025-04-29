@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainWindow">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="409.0" prefWidth="723.0" style="-fx-background-color: #252526;">
+            <children>
+                <Button fx:id="NewTicket" layoutX="224.0" layoutY="70.0" mnemonicParsing="false" onAction="#NewTicketOnAction" prefHeight="44.0" prefWidth="276.0" style="-fx-background-radius: 20; -fx-background-color: #2596be;" text="Έκδοση νέου εισιτηρίου" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="ListTicket" layoutX="224.0" layoutY="132.0" mnemonicParsing="false" onAction="#ListTicketOnAction" prefHeight="44.0" prefWidth="276.0" style="-fx-background-radius: 20; -fx-background-color: #2596be;" text="Λίστα εισιτηρίων" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="About" layoutX="224.0" layoutY="193.0" mnemonicParsing="false" onAction="#AboutOnAction" prefHeight="44.0" prefWidth="276.0" style="-fx-background-radius: 20; -fx-background-color: #2596be;" text="Πληροφορίες εφαρμογής" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Exit" layoutX="224.0" layoutY="324.0" mnemonicParsing="false" onAction="#ExitOnAction" prefHeight="44.0" prefWidth="276.0" style="-fx-background-radius: 20; -fx-background-color: #2596be;" text="Έξοδος" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</GridPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.About">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="409.0" prefWidth="723.0" style="-fx-background-color: #252526;">
+         <children>
+            <Button fx:id="BackButton" layoutX="28.0" layoutY="24.0" mnemonicParsing="false" onAction="#BackButtonOnAction" prefHeight="44.0" prefWidth="115.0" style="-fx-background-radius: 20; -fx-background-color: #2596be;" text="&lt; Πίσω" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="153.0" layoutY="24.0" prefHeight="22.0" prefWidth="137.0" text="Όνομα εφαρμογής" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="63.0" prefHeight="22.0" prefWidth="246.0" text="Ονοματεπώνυμο προγραμματιστή" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="101.0" prefHeight="22.0" prefWidth="246.0" text="Αριθμό μητρώου προγραμματιστή" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="144.0" prefHeight="22.0" prefWidth="200.0" text="Ημερομηνία ολοκλήρωσης" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField editable="false" layoutX="399.0" layoutY="22.0" text="FastTicket" />
+            <TextField editable="false" layoutX="399.0" layoutY="61.0" text="Πολυβιος Πατσεαδης" />
+            <TextField editable="false" layoutX="399.0" layoutY="100.0" text="cse242017031" />
+            <TextField editable="false" layoutX="399.0" layoutY="143.0" text="11/6/2021" />
+            <TextArea editable="false" layoutX="28.0" layoutY="196.0" prefHeight="187.0" prefWidth="667.0" text="Η εφαρμογή και η σχεδίαση της φτιαχτηκε με την  βιβλιοθηκη της JavaFX. Δημίουργηθηκαν 4 φορμες Fxml οι οποιος περιεχουν ολα τα απαραιτιτα που ζηταει η ασκηση. " wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+         </children></Pane>
+   </children>
+</GridPane>
